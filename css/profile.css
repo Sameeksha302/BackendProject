@@ -1,0 +1,55 @@
+
+#submit-btn{
+    display: none;
+}
+#new-pass-div{
+    display: none;
+}
+#hidden{
+    display: none;
+}
+
+#update-btn{
+    background-color: #388e3c;              
+    padding: 10px 18px;   
+    color:white;    
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    font-size: 16px;           
+    font-weight: bold;        
+    text-align: center;        
+    cursor: pointer;          
+    transition: all 0.2s ease-in-out; 
+  }
+
+#update-btn:hover {
+    background-color: #42a047;  
+  }
+
+#change-btn
+{
+    background-color: #388e3c;              
+    padding: 10px 18px; 
+    color: white;      
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    font-size: 16px;           
+    font-weight: bold;        
+    text-align: center;        
+    cursor: pointer;          
+    transition: all 0.2s ease-in-out; 
+}
+#change-btn:hover {
+    background-color: #42a047;  
+  }
+
+
+
+
+
+  
+
+ 
+  
+
+
