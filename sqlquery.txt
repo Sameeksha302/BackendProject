@@ -1,0 +1,26 @@
+create database test;
+
+use test;
+
+create table users(
+    firstName varchar(15) not null,
+    lastName varchar(15) not null,
+    imgpath varchar(100),
+    email varchar(30) not null primary key,
+    password varchar(15) not null,
+    phoneNumber varchar(10) not null,
+    address varchar(50)
+);
+
+create table property(
+    propertyId int auto_increment primary key,
+    propertyName varchar(25),
+    propertyType varchar(5),
+    propertyPrice varchar(15),
+    propertyLocation varchar(50),
+    propertyDescription varchar(100),
+    propertyImg varchar(100)
+);
+
+
+
