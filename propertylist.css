@@ -1,0 +1,13 @@
+.product-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product-list img {
+    float: left;
+    margin-right: 10px;
+    max-width: 200px; 
+    height: auto;
+}
